@@ -1,8 +1,8 @@
-let n = 281041;
-let e = 13;
-let c = 148219;
-let m = 8;
-let l = Math.pow(2, Math.floor(m / 2));
+let n = 281041; // Assign a value to variable n (e.g., RSA modulus)
+let e = 13; // Assign a value to variable e (e.g., RSA public exponent)
+let c = 148219; // Assign a value to variable c (e.g., RSA ciphertext)
+let m = 8; // Assign a value to variable m (e.g., block size)
+let l = Math.pow(2, Math.floor(m / 2)); // Compute the value for variable l using Math.pow function (e.g., list size or number of iterations)
 
 function powerMod(base, exponent, modulus) {
     if (exponent === 0) return 1;
